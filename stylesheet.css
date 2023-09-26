@@ -58,7 +58,7 @@
   color: white;
 }
 
-#course-content {
+#course-content, #professional-challenges {
   align-items: center;
   background-color: #000000;
   display: flex;
@@ -77,7 +77,7 @@
   text-transform: uppercase;
 }
 
-#course-content p {
+#course-content p, #professional-challenges p {
   color: white; 
   font-weight: 400;
   font-size: 16px;
@@ -125,7 +125,11 @@
   font-weight: 900;
   font-size: 40px;
   width: 300px;
+}
 
+#professional-challenges {
+  height: 800px;
+  justify-content: space-evenly;
 }
 
 @media (max-width: 768px) {
