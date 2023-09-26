@@ -10,7 +10,7 @@
   min-height: 600px;
   justify-content: center;
   width: 100%;
-  align-items: center; /* Adicionado para centralizar verticalmente */
+  align-items: center; 
   text-align: center;
 }
 
@@ -18,15 +18,15 @@
   align-items: center;
   background-image: url('assets/images/banner.png');
   background-repeat: no-repeat;
-  background-size: cover; /* Melhora a exibição da imagem de fundo */
+  background-size: cover; 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  padding: 20px; /* Espaçamento interno para conteúdo */
+  padding: 20px; 
   max-width: 1000px;
-  margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+  margin: 0 auto; 
 }
 
 .banner-content h1 {
@@ -90,8 +90,8 @@
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 30px;
-  width: 80%; /* Aumentado para melhor legibilidade */
-  max-width: 600px; /* Aumentado para melhor legibilidade */
+  width: 80%; 
+  max-width: 600px; 
 }
 
 .modules-list {
@@ -107,7 +107,7 @@
   font-size: 16px;
   height: 50px;
   margin-bottom: 20px;
-  width: 100%; /* Alterado para ocupar a largura total */
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -125,7 +125,7 @@
   background-size: cover;
   background-position: center;
   padding: 30px;
-  min-height: 500px; /* Alterado para manter a altura mínima */
+  min-height: 500px; 
 }
 
 #transform-world p {
@@ -133,12 +133,12 @@
   color: white;
   font-weight: 900;
   font-size: 40px;
-  width: 100%; /* Para ocupar a largura total */
+  width: 100%; 
 }
 
 #professional-challenges {
   justify-content: space-evenly;
-  padding: 20px; /* Espaçamento interno para melhorar o layout */
+  padding: 20px; 
 }
 
 footer {
@@ -178,7 +178,7 @@ footer a {
   .banner-content p {
     font-size: 14px;
     width: 90%;
-    max-width: none; /* Redefinir a largura máxima */
+    max-width: none; 
   }
 
   .banner-content button {
@@ -194,7 +194,7 @@ footer a {
   #course-content p, #professional-challenges p {
     font-size: 14px;
     width: 90%;
-    max-width: none; /* Redefinir a largura máxima */
+    max-width: none;
   }
 
   .module {
