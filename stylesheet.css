@@ -209,11 +209,19 @@ footer a {
 
 @media (max-width: 480px) {
   .banner, footer, #course-content, #transform-world, #professional-challenges {
-    width: 139%;
+    width: 100%;
+    min-width: min-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-size: cover; 
   }
 
   .banner-content h1 {
     font-size: 24px;
+  }
+
+  #professional-challenges img {
+    width: 80%;
   }
 
   .banner-content p {
