@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 .banner {
@@ -24,14 +25,12 @@
 
 .banner-content h1 {
   color: #3BA1CD;
-  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   font-weight: 900;
 }
 
 .banner-content p {
   color: white;
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 400;
   width: 30%;
@@ -72,7 +71,6 @@
 
 #course-content h2, #professional-challenges h2 {
   color: #3BA1CD;
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 32px;
   margin-bottom: 30px;
@@ -81,7 +79,6 @@
 
 #course-content p {
   color: white; 
-  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 30px;
@@ -97,7 +94,6 @@
   border: 2px solid #3BA1CD;
   border-radius: 30px;
   display: flex;
-  font-family: 'Raleway', sans-serif;
   font-weight: 400;
   font-size: 16px;
   height: 50px;
@@ -110,6 +106,26 @@
 .module span{ 
   color: #488dab;
   font-weight: bold;
+}
+
+#transform-world {
+  display: flex;
+  align-items: center;
+  background-image: url('assets/images/woman-code.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  height: 500px;
+}
+
+#transform-world p {
+  text-shadow: 8px 8px 4px rgba(0, 0, 255, 0.5);
+  color: white;
+  font-weight: 900;
+  font-size: 40px;
+  width: 300px;
+
 }
 
 @media (max-width: 768px) {
